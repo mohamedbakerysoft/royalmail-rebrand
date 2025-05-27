@@ -5,6 +5,9 @@
 !index.html
 !css/
 !img/
+!img/**/*
+!img/royal-mail/
+!img/royal-mail/**
 !.cursor/
 .cursor/mcp.json
 !package.json
