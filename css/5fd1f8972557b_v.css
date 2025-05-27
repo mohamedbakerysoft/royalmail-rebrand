@@ -1808,6 +1808,7 @@ textarea.form__input {
 .new-royal-mail-footer {
   color: #fff;
   font-size: 14px;
+  width: 100%; /* Ensure the footer element itself spans full width */
 }
 
 .new-royal-mail-footer .container {
