@@ -1244,9 +1244,6 @@ textarea.form__input {
   letter-spacing: 2px;
 }
 
-
-
-
 /*------------------------------------*
 	@COMPONENTS #BADGE
 \*------------------------------------*/
@@ -1270,7 +1267,6 @@ textarea.form__input {
   top: -10px;
   right: -15px;
 }
-
 
 @media (min-width: 768px) {
   .badge img {
@@ -1807,3 +1803,164 @@ textarea.form__input {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+/* New Royal Mail Footer Styles */
+.new-royal-mail-footer {
+  color: #fff;
+  font-size: 14px;
+}
+
+.new-royal-mail-footer .container {
+  max-width: 1200px; /* Adjust as needed based on royalmail.com's container */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-main {
+  background-color: #333333; /* Dark grey from screenshot */
+  padding: 40px 0;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex-basis: 22%; /* Adjust for 4 columns */
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: none; /* Overriding existing h4 styles if any */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.external-link-icon {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.footer-graphic {
+  margin-top: 20px;
+  /* Placeholder for actual image styling */
+  padding: 10px;
+  border: 1px dashed #555;
+  text-align: center;
+  font-style: italic;
+  color: #ccc;
+}
+
+.footer-social-icons {
+  margin-top: 30px;
+  text-align: left; /* As per screenshot */
+}
+
+.footer-social-icons span {
+  display: inline-block;
+  margin-right: 15px;
+  /* Placeholder for actual icon styling */
+  padding: 5px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px; /* Adjust for vertical centering */
+}
+
+.footer-mid {
+  background-color: #4A5664; /* Mid-grey/blue from screenshot */
+  padding: 20px 0;
+}
+
+.footer-mid-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.safe-spaces-logo {
+  /* Placeholder */
+  padding: 10px;
+  border: 1px dashed #ccc;
+  font-style: italic;
+}
+
+.domestic-abuse-text {
+  font-weight: bold;
+}
+
+.footer-bottom {
+  background-color: #000000; /* Black from screenshot */
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.footer-bottom-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+  text-align: center; /* Links appear somewhat centered in screenshot */
+}
+
+.footer-bottom-links ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-bottom-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Ensure footer takes full width */
+.new-royal-mail-footer .container.footer-columns,
+.new-royal-mail-footer .container.footer-social-icons,
+.new-royal-mail-footer .container.footer-mid-content,
+.new-royal-mail-footer .container.footer-bottom-links {
+    max-width: 100%; /* Override general container for full-width sections if needed */
+    padding-left: 5%; /* Add some padding from edges like in screenshot */
+    padding-right: 5%;
+}
+
+/* Specific adjustments for the container within footer sections */
+.footer-main > .container,
+.footer-mid > .container,
+.footer-bottom > .container {
+    max-width: 1140px; /* A common bootstrap lg breakpoint, adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
