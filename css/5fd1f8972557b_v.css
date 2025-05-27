@@ -1601,10 +1601,11 @@ textarea.form__input {
 }
 
 .question__answers .icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  stroke: currentColor;
   margin-right: 10px;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
 }
 
 .question__answers input:checked + label {
