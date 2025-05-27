@@ -1868,12 +1868,12 @@ textarea.form__input {
 
 .footer-graphic {
   margin-top: 20px;
-  /* Placeholder for actual image styling */
-  padding: 10px;
-  border: 1px dashed #555;
-  text-align: center;
-  font-style: italic;
-  color: #ccc;
+  text-align: center; /* Center the image if it's smaller than the container */
+}
+
+.stamp-out-scams-graphic img {
+  max-width: 150px; /* Adjust as needed */
+  height: auto;
 }
 
 .footer-social-icons {
