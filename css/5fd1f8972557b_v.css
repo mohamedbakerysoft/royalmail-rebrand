@@ -1876,6 +1876,17 @@ textarea.form__input {
   height: auto;
 }
 
+.keep-me-posted-graphic img {
+  max-width: 150px; /* Adjust as needed, can be different from stamp-out */
+  height: auto;
+}
+
+.safe-spaces-logo-graphic img {
+  max-width: 180px; /* Adjust as needed */
+  height: auto;
+  /* Potentially add margin if needed to align with text, e.g., margin-right: 15px; */
+}
+
 .footer-social-icons {
   margin-top: 30px;
   text-align: left; /* As per screenshot */
