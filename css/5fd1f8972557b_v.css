@@ -1606,6 +1606,11 @@ textarea.form__input {
   fill: currentColor;
   stroke: currentColor;
   margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.question__answers label span {
+  line-height: 1.2;
 }
 
 .question__answers input:checked + label {
