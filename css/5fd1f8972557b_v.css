@@ -1607,6 +1607,8 @@ textarea.form__input {
   stroke: currentColor;
   margin-right: 10px;
   flex-shrink: 0;
+  position: relative;
+  top: 15px;
 }
 
 .question__answers label span {
