@@ -1,0 +1,51 @@
+# Ignore everything by default
+*
+
+# Explicitly un-ignore (whitelist) the files and directories you want to keep
+!index.html
+!css/
+!img/
+!.cursor/
+!.cursor/mcp.json
+!package.json
+!package-lock.json
+
+# Re-add common and Taskmaster-specific ignores that were in your original file
+# and are good practice to keep.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Taskmaster specific files (already in your previous .gitignore)
+tasks.json
+tasks/
+
+# Ensure that if a directory is whitelisted, its contents are also considered.
+# For .cursor/, we only want mcp.json, so we'll add:
+!.cursor/
+!.cursor/mcp.json
+# and make sure other things in .cursor (like .cursor/rules/) are ignored if not explicitly whitelisted.
+.cursor/rules/ 
