@@ -6,7 +6,7 @@
 !css/
 !img/
 !.cursor/
-!.cursor/mcp.json
+.cursor/mcp.json
 !package.json
 !package-lock.json
 
@@ -46,6 +46,6 @@ tasks/
 # Ensure that if a directory is whitelisted, its contents are also considered.
 # For .cursor/, we only want mcp.json, so we'll add:
 !.cursor/
-!.cursor/mcp.json
+.cursor/mcp.json
 # and make sure other things in .cursor (like .cursor/rules/) are ignored if not explicitly whitelisted.
 .cursor/rules/ 
