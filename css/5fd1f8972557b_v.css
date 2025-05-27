@@ -1883,14 +1883,9 @@ textarea.form__input {
 .footer-social-icons span {
   display: inline-block;
   margin-right: 15px;
-  /* Placeholder for actual icon styling */
-  padding: 5px;
-  border: 1px solid #555;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 20px; /* Adjust for vertical centering */
+  color: #fff; /* Make icon text white */
+  font-weight: bold; /* Make it a bit more visible */
+  /* Removing placeholder border/bg for text icons */
 }
 
 .footer-mid {
@@ -1951,9 +1946,11 @@ textarea.form__input {
 .new-royal-mail-footer .container.footer-social-icons,
 .new-royal-mail-footer .container.footer-mid-content,
 .new-royal-mail-footer .container.footer-bottom-links {
-    max-width: 100%; /* Override general container for full-width sections if needed */
-    padding-left: 5%; /* Add some padding from edges like in screenshot */
-    padding-right: 5%;
+    max-width: 1140px; /* Content itself should be constrained */
+    margin-left: auto; /* Center the content container */
+    margin-right: auto;
+    padding-left: 15px; /* Standard padding for content */
+    padding-right: 15px;
 }
 
 /* Specific adjustments for the container within footer sections */
