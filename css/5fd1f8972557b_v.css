@@ -1078,7 +1078,7 @@ textarea.form__input {
 }
 
 .title--primary {
-  color: #ffc107;
+  color: #000000; /* Changed from #ffc107 to black */
 }
 
 @media (min-width: 768px) {
