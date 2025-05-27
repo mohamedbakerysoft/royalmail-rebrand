@@ -1266,8 +1266,8 @@ textarea.form__input {
   height: 30px;
   line-height: 30px;
   border-radius: 50%;
-  color: #000;
-  background-color: #ffc107; /* gul baggrund */
+  color: #FFFFFF; /* White text for contrast */
+  background-color: #DA202A; /* Royal Mail Red */
   font-weight: 700;
   font-size: 20px;
   position: absolute;
@@ -1422,11 +1422,11 @@ textarea.form__input {
 }
 
 .step--current, .step--done {
-  border-color: #ffc107;
+  border-color: #DA202A; /* Royal Mail Red */
 }
 
 .step--current::before, .step--done::before {
-  background-color: #ffc107;
+  background-color: #DA202A; /* Royal Mail Red */
   opacity: 1;
 }
 
@@ -1436,7 +1436,7 @@ textarea.form__input {
 }
 
 .step--done::after {
-  background-color: #ffc107 !important;
+  background-color: #DA202A !important; /* Royal Mail Red */
 }
 
 @media (min-width: 768px) {
@@ -1599,7 +1599,7 @@ textarea.form__input {
 .question__answers label::after {
   width: 10px;
   height: 10px;
-  background-color: #ffc107;
+  background-color: #DA202A; /* Royal Mail Red */
   opacity: 0;
   margin-left: 3px;
 }
@@ -1612,7 +1612,7 @@ textarea.form__input {
 }
 
 .question__answers input:checked + label {
-  background-color: #ffc107;
+  background-color: #DA202A; /* Royal Mail Red */
   color: #fff;
 }
 
@@ -1648,7 +1648,7 @@ textarea.form__input {
 	@TRUMPS #COLORS
 \*------------------------------------*/
 .color-primary {
-  color: #ffc107 !important;
+  color: #DA202A !important; /* Royal Mail Red */
 }
 
 .color-alt {
