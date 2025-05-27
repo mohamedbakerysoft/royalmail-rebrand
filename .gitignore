@@ -43,8 +43,7 @@ node_modules/
 .DS_Store
 
 # Taskmaster specific files (already in your previous .gitignore)
-tasks.json
-tasks/
+
 
 # Ensure that if a directory is whitelisted, its contents are also considered.
 # For .cursor/, we only want mcp.json, so we'll add:
